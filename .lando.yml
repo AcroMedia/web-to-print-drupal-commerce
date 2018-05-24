@@ -1,0 +1,6 @@
+name: web-to-print
+recipe: drupal7
+config:
+  webroot: web
+  via: nginx
+  drush: global:8.1.15
